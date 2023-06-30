@@ -9,6 +9,6 @@ const parent = React.createElement( "div", {id: "parent"},[
     ]),
 ]);
 console.log(parent)
-// const heading = React.createElement("h1", {id: "heading", class: "abc",}, "Hello world from React !");
+// const heading = React.createElement("h1", {id: "heading", class: "abc",}, "Hello world from React !!");
 const root  = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
